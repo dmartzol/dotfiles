@@ -1,0 +1,33 @@
+{
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": false,
+    "auto_complete_cycle": false,
+    "auto_complete_delay": 50,
+    "auto_complete_triggers":
+    [
+        {
+            "characters": "."
+        }
+    ],
+    "auto_complete_with_fields": false,
+    "bold_folder_labels": true,
+    "drag_text": false,
+    "draw_minimap_border": true,
+    "draw_white_space": "none",
+    "enable_tab_scrolling": false,
+    "ensure_newline_at_eof_on_save": true,
+    "font_face": "Source Code Pro",
+    "font_size": 11,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "scroll_past_end": true,
+    "show_definitions": true,
+    "tab_size": 4,
+    "theme": "Default.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true
+}

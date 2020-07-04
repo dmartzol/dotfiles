@@ -1,0 +1,4 @@
+% macos
+
+# Show hard drives space information(used, available and capacity)
+df -h

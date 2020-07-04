@@ -1,0 +1,28 @@
+% terminal
+
+# Sharing public ssh key for passwordless login into
+ssh-copy-id <host_name>@<ip_address>
+
+# Show command line history
+history
+
+# Show ASCII table
+man ascii
+
+# Count lines in a file
+wc -l <file>
+
+# Restart computer now
+sudo shutdown -r now
+
+# Power off computer now
+sudo shutdown -h now
+
+# Search command in history
+history | grep <search_term>
+
+# Finds files with given extension recursively
+find . -type f -name <*.extension>
+
+# Finds given string in a text file recursively
+grep -R <string> *
