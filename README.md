@@ -123,7 +123,7 @@ It looks something like this:
 * To install Golang:
 
 	1. `brew install go`
-	2. Then add to your `.zshrc` file the line `export PATH=$PATH:$HOME/go/bin`.
+	2. Then add `export PATH=$PATH:$HOME/go/bin` to your `.zshrc`.
 
 * Python & pip: `brew install python3`
 
