@@ -16,7 +16,7 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 #   POSTGRESQL
 #   -------------------------------
 # export PATH=$PATH:/Library/PostgreSQL/12/bin
-[[ ! -f ~/.local-db-hmmm ]] || source ~/.local-db-hmmm
+[[ ! -f ~/.local-db-hmm ]] || source ~/.local-db-hmm
 [[ ! -f ~/.hmm ]] || source ~/.hmm
 
 #   -------------------------------

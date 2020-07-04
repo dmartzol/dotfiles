@@ -87,6 +87,7 @@ It looks something like this:
 	```
 	brew install postgres
 	brew services start postgresql
+	createuser -s postgres
 	```
 
 * Micro Text Editor: `brew install micro`
