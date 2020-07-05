@@ -119,6 +119,7 @@ It looks something like this:
 * Discord
 * nteract
 * VLC
+* Transmission
 
 ## 5. Programming languages
 
