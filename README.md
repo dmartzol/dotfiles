@@ -7,6 +7,7 @@
 	- Show Path bar
 * System Preferences > Show scroll bars: always.
 * System Preferences > Keyboard > Text: disable correct spelling automatically.
+* System Preferences > Trackpad > More Gestures > disable `Swipe between pages`.
 * In a Finder window, press `cmd+shift+.` to show hidden files.
 
 ## 2. SSH Keys
