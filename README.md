@@ -124,11 +124,22 @@ It looks something like this:
 
 ## 5. Programming languages
 
+### 5.1 Golang
+
 * To install Golang:
 
 	1. `brew install go`
 	2. Then add `export PATH=$PATH:$HOME/go/bin` to your `.zshrc`.
 
+* Staticcheck for Golang:
+
+`go get honnef.co/go/tools/cmd/staticcheck `
+
+
+### 5.2 Python
+
 * Python & pip: `brew install python3`
+
+### 5.3 Nodejs
 
 * Node and npm: `brew install node`
