@@ -3,8 +3,107 @@
         "editor.rulers": [
             79,
             120
+        ],
+        "editor.formatOnSave": true,
+    },
+    "[javascriptreact]": {
+        "editor.rulers": [
+            85,
+            120
+        ],
+        "editor.formatOnSave": true,
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "all",
+        // "editor.acceptSuggestionOnEnter": "off"
+    },
+    "[go]": {
+        "editor.rulers": [
+            85,
+            120
         ]
     },
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "breadcrumbs.enabled": true,
+    "explorer.openEditors.visible": 0,
+    "editor.renderWhitespace": "all",
+    "editor.smoothScrolling": true,
+    // "editor.hover.enabled": false,
+    "editor.hover.delay": 700,
+    "editor.fontFamily": "Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    // minimap
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+    // cursor
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorWidth": 1,
+    "editor.cursorStyle": "line",
+    // color
+    "workbench.colorCustomizations": {
+        // Selection
+        "editor.selectionBackground": "#e63010",
+        "editor.selectionHighlightBorder": "#e63010",
+        // Find matches
+        "editor.findMatchBackground": "#239421",
+        "editor.findMatchBorder": "#ffffff",
+        "editor.findMatchHighlightBackground": "#559c3faf",
+        "editor.rangeHighlightBackground": "#155214",
+        "editorBracketMatch.background": "#e63010",
+        "editorBracketMatch.border": "#e63010",
+    },
+    // Go settings
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": true
+    },
+    "go.lintTool": "staticcheck",
+    // "go.lintTool": "golint",
+    // "go.lintOnSave": "workspace",
+    // "go.liveErrors": {
+    //     "enabled": true,
+    //     "delay": 500
+    // },
+    // "go.alternateTools": {},
+    // Go settings work
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+        "go-langserver": "gopls",
+    },
+    "go.languageServerExperimentalFeatures": {
+        // "format": true,
+        // "autoComplete": true
+    },
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 1,
+            "maxStringLen": 64,
+            "maxArrayValues": 64,
+            "maxStructFields": -1
+        },
+        "apiVersion": 2,
+        "showGlobalVariables": true
+    },
+    // Extensions settings
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.tree.showScanModeButton": false,
+    // "emmet.extensionsPath": "",
+    "workbench.iconTheme": "vscode-icons",
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -59,34 +158,8 @@
             "value": "#42b883"
         }
     ],
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 200,
-    "editor.renderWhitespace": "all",
-    "editor.smoothScrolling": true,
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.minimap.showSlider": "always",
-    "breadcrumbs.enabled": true,
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "go.formatTool": "goimports",
-    // "editor.fontFamily": "Source Code Pro, Iosevka Extended, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontFamily": "Iosevka, Menlo, Monaco, 'Courier New', monospace",
-    "window.zoomLevel": 2,
-    "workbench.colorCustomizations": {
-        // "editor.selectionBackground": "#e63010",
-        // "editor.selectionForeground": "#ffffff",
-        // "editor.selectionHighlightBackground": "#520c00",
-        // "editor.inactiveSelectionBackground": "#e63010",
-        "editor.selectionHighlightBorder": "#e63010",
-        "editor.findMatchBackground": "#3cff00",
-        "editor.findMatchHighlightBackground": "#559c3f",
-        "editor.findMatchBorder": "#ffffff",
-        // "editor.rangeHighlightBackground": "#15ff0041",
-        // "editorBracketMatch.background": "#00ff0085",
-        // "editorBracketMatch.border": "#e63010",
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 500
     },
 }
