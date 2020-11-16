@@ -32,6 +32,11 @@ export PATH=$PATH:$HOME/go/bin
 # export PATH=$PATH:$GOROOT/bin
 
 #   -------------------------------
+#   Git autocompletion
+#   -------------------------------
+autoload -Uz compinit && compinit
+
+#   -------------------------------
 #   MAKE TERMINAL BETTER
 #   -------------------------------
 

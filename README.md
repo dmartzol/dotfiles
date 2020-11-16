@@ -58,6 +58,14 @@ It looks something like this:
 
 ![temrinal screeshot](https://github.com/dmartzol/dotfiles/blob/master/custom-monokai.png)
 
+### 3.3 Install PowerLevel10k:
+
+You will need to change permissions to add autocompletion to git with:
+(see https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories)
+```
+sudo chmod -R 755 /usr/local/share/zsh
+sudo chown -R root:staff /usr/local/share/zsh
+```
 
 ## 4. Useful software
 
