@@ -8,7 +8,14 @@
 * System Preferences > Show scroll bars: always.
 * System Preferences > Keyboard > Text: disable correct spelling automatically.
 * System Preferences > Trackpad > More Gestures > disable `Swipe between pages`.
+* System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Zoom` for all apps with shortcut `option+cmd+=`.
+* System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Show Next Tab` for `Safari` with shortcut `option+cmd+->`.
+* System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Show Previous Tab` for `Safari` with shortcut `option+cmd+<-`.
 * In a Finder window, press `cmd+shift+.` to show hidden files.
+
+
+![keyboard shortcuts](https://github.com/dmartzol/dotfiles/blob/master/keyboard-shortcuts.png)
+
 
 ## 2. SSH Keys
 

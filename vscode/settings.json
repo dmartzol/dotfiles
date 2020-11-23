@@ -38,7 +38,8 @@
     // "editor.hover.enabled": false,
     "editor.hover.delay": 700,
     "editor.fontFamily": "Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
+    "editor.gotoLocation.multipleDeclarations": "gotoAndPeek",
     // minimap
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
@@ -161,5 +162,5 @@
     "go.liveErrors": {
         "enabled": true,
         "delay": 500
-    },
+    }
 }
