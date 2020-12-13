@@ -49,7 +49,6 @@ alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
 alias cic='set completion-ignore-case On'   # cic: Make tab-completion case-insensitive
 alias clear='echo "No! Use Cntrl+L!"'       # Get used to use Ctrl+L
 alias reload='source ~/.zshrc'
-alias cheats='alias'
 alias compile='g++ -std=c++11 $1'           # Compiles cpp code with C++11
 alias ll='ls -FGlAhp'                       # Alternative 'ls' implementation
 alias ls='ls -aFG'                          # Preferred ls command
