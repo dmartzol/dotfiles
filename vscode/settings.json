@@ -53,14 +53,19 @@
     "workbench.colorCustomizations": {
         // Selection
         "editor.selectionBackground": "#e63010",
+        // "editor.selectionHighlightBackground": "#559c3f",
         "editor.selectionHighlightBorder": "#e63010",
+        // "editor.inactiveSelectionBackground": "#e63010",
         // Find matches
         "editor.findMatchBackground": "#239421",
         "editor.findMatchBorder": "#ffffff",
         "editor.findMatchHighlightBackground": "#559c3faf",
         "editor.rangeHighlightBackground": "#155214",
-        "editorBracketMatch.background": "#e63010",
-        "editorBracketMatch.border": "#e63010",
+        // "editor.lineHighlightBackground": "#1e1e1e",
+        // "editor.lineHighlightBackground": "#3b3b3b",
+        "editor.lineHighlightBorder": "#00ff2a57",
+        // "editorBracketMatch.background": "#e63010",
+        // "editorBracketMatch.border": "#e63010",
     },
     // Go settings
     "go.enableCodeLens": {

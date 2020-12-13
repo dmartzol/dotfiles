@@ -1,0 +1,7 @@
+"Debug print with TODO": {
+    "prefix": "dani",
+    "body": [
+        "log.Printf(\"${1:TESTING}\") //TODO: dani - remove;"
+    ],
+    "description": "Log output to console"
+},
