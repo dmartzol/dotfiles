@@ -20,4 +20,9 @@ To disable Bidged mode go to `192.168.100.1` and turn `Gateway Mode` back to `ro
 6. Connect ethernet cable to computer port
 7. Visit 192.168.1.1 in your browser
 8. Click on tab `System` on the bottom of the screen and check firmware version for updates(optional).
-9. 
+9. Reboot router
+10. Go to wizard and select `WAN+2LAN2` creating a new admin user called `dani` and set a safe password.
+11. Reboot and connect internet cable to eth0.
+12. (optional) connect ethernet cable from computer to router eth1
+13. Download Unifi controller from the official page.(as of 2020-12-13 you need to install Java 8)
+14. Configure router with the controller software
