@@ -22,7 +22,16 @@ To disable Bidged mode go to `192.168.100.1` and turn `Gateway Mode` back to `ro
 8. Click on tab `System` on the bottom of the screen and check firmware version for updates(optional).
 9. Reboot router
 10. Go to wizard and select `WAN+2LAN2` creating a new admin user called `dani` and set a safe password.
-11. Reboot and connect internet cable to eth0.
-12. (optional) connect ethernet cable from computer to router eth1
+11. Reboot and connect Internet(from cablemodem) cable to eth0.
+12. Connect ethernet cable from computer to router eth1
 13. Download Unifi controller from the official page.(as of 2020-12-13 you need to install Java 8)
-14. Configure router with the controller software
+14. Configure access point with the controller software
+15. Use wifi to connect to AP and disconnect ethernet from eth1
+
+# 3. Connecting RPi to router
+
+1. Run `sudo nmap -sP 192.168.1.0/24` to see currently connected devices
+2. Add file `ssh` to RPi SD card to activate ssh access
+3. Connect RPi to router using ethernet
+4. Run `sudo nmap -sP 192.168.1.0/24` again, RPi should be there after a couple of minutes
+5. SSH into RPi. Default credentials are `pi` and `raspberry`.
