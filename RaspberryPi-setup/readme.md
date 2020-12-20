@@ -11,3 +11,13 @@
 3. Change default RPi password with `passwd`
 4. Append `PasswordAuthentication no` to `/etc/ssh/sshd_config` using `sudo nano ssh_config `
 5. Run `sudo sudo apt-get update --yes && sudo apt-get upgrade --yes`.
+
+# 3. Install Unifi controller
+
+1. `sudo apt update`
+2. `sudo apt upgrade`
+3. `sudo apt install openjdk-8-jre-headless`
+4. `echo 'deb https://www.ui.com/downloads/unifi/debian stable ubiquiti' | sudo tee /etc/apt/sources.list.d/100-ubnt-unifi.list`
+5. `sudo wget -O /etc/apt/trusted.gpg.d/unifi-repo.gpg https://dl.ui.com/unifi/unifi-repo.gpg`
+6. `sudo apt update`
+7.  `sudo apt install unifi`
