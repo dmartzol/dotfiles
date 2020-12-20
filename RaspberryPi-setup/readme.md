@@ -21,3 +21,4 @@
 5. `sudo wget -O /etc/apt/trusted.gpg.d/unifi-repo.gpg https://dl.ui.com/unifi/unifi-repo.gpg`
 6. `sudo apt update`
 7.  `sudo apt install unifi`
+8.  Visit `https://[IPADDRESS]:8443`
