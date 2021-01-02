@@ -5,3 +5,10 @@
     ],
     "description": "Log output to console"
 },
+"Databse Transaction": {
+    "prefix": "dbtx",
+    "body": [
+        "tx, err := d.Beginx()\n if err != nil {\nreturn nil, err\n}"
+    ],
+    "description": "Snippet for database transaction"
+},
