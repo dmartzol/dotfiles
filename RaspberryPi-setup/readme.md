@@ -9,8 +9,8 @@
 1. Do `ssh-copy-id pi@192.168.1.45` from your mac
 2. Connect to the Pi with `ssh pi@192.168.1.45`
 3. Change default RPi password with `passwd`
-4. Append `PasswordAuthentication no` to `/etc/ssh/sshd_config` using `sudo nano ssh_config `
-5. Run `sudo sudo apt-get update --yes && sudo apt-get upgrade --yes`.
+4. Append `PasswordAuthentication no` to `/etc/ssh/sshd_config` using `sudo nano ssh_config`
+5. Run `sudo sudo apt update --yes && sudo apt upgrade --yes`.
 
 # 3. Install Unifi controller
 
