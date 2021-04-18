@@ -52,7 +52,7 @@ cd .ssh
 ssh-keygen
 ```
 
-Then paste the public key `id_rsa.pub`(you can get it with `cat id_rsa.pub`) on services that use it, like *Github*.
+Then paste the public key `id_rsa.pub`(you can get it with `cat id_rsa.pub`) on services that use it, like *Github*. To copy your public key to your clipboard use `cat ~/.ssh/id_rsa.pub | pbcopy`.
 
 ## 6. Terminal setup
 
