@@ -6,6 +6,7 @@
 	- Show Status Bar
 	- Show Path bar
 * System Preferences > General > Show scroll bars: always.
+* System Preferences > Trackpad > Point & Click > enable `Tap to click`.
 * System Preferences > Trackpad > More Gestures > disable `Swipe between pages`.
 * System Preferences > Keyboard > Text: disable correct spelling automatically.
 * System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Zoom` for all apps with shortcut `option+cmd+=`.
