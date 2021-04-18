@@ -5,7 +5,7 @@
 * Finder > view:
 	- Show Status Bar
 	- Show Path bar
-* System Preferences > Show scroll bars: always.
+* System Preferences > General > Show scroll bars: always.
 * System Preferences > Keyboard > Text: disable correct spelling automatically.
 * System Preferences > Trackpad > More Gestures > disable `Swipe between pages`.
 * System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Zoom` for all apps with shortcut `option+cmd+=`.

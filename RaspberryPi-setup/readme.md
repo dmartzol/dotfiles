@@ -11,6 +11,7 @@
 3. Change default RPi password with `passwd`
 4. Append `PasswordAuthentication no` to `/etc/ssh/sshd_config` using `sudo nano ssh_config`
 5. Run `sudo sudo apt update --yes && sudo apt upgrade --yes`.
+6. Run `sudo apt install tmux`.
 
 # 3. Install Unifi controller
 
