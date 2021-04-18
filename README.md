@@ -110,8 +110,8 @@ sudo chown -R root:staff /usr/local/share/zsh
 ## 7. Useful software
 
 * DBeaver:
-	1. First install Java with `brew cask install java`
-	2. Install DBeaever with `brew cask install dbeaver-community`
+	1. First install Java with `brew install --cask adoptopenjdk`
+	2. Install DBeaever with `brew install --cask dbeaver-community`
 
 * PostgreSQL:
 
