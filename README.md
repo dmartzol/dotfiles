@@ -71,13 +71,13 @@ To copy my theme config:
 cp ~/dev/dotfiles/.p10k.zsh ~/.p10k.zsh
 ```
 
-Then import `Monokai-Custom-theme.terminal` into your terminal app.
+Then import `Monokai.terminal` into your terminal app.
 
 It looks something like this:
 
 ![temrinal screeshot](https://github.com/dmartzol/dotfiles/blob/master/custom-monokai.png)
 
-### 5.4 Install PowerLevel10k:
+### 5.4 Git autocompletion:
 
 You will need to change permissions to add autocompletion to git with:
 (see https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories)
