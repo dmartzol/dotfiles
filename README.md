@@ -16,16 +16,16 @@
 
 ![keyboard shortcuts](https://github.com/dmartzol/dotfiles/blob/master/keyboard-shortcuts.png)
 
-## 1. Install All Software Updates for MacOS
+## 2. Install All Software Updates for MacOS
 
-## 1. Install Sublime Text from Official Website
+## 3. Install Sublime Text from Official Website
 
 	After downloading ST, install the command line tool `subl` creating a symlink:
 	```
 	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 	```
 
-## 2. SSH Keys
+## 4. SSH Keys
 
 Install new ssh key in this new machine:
 
@@ -38,13 +38,13 @@ ssh-keygen
 
 Then paste the public key `id_rsa.pub`(you can get it with `cat id_rsa.pub`) on services that use it, like *Github*.
 
-## 3. Terminal setup
+## 5. Terminal setup
 
-### 3.1 Install Homebrew
+### 5.1 Install Homebrew
 
 Go to [the official website](https://brew.sh) and follow the instructions.
 
-### 3.2 Install your dotfiles:
+### 5.2 Install your dotfiles:
 
 ```
 git clone git@github.com:dmartzol/dotfiles.git ~/dev/dotfiles
@@ -53,7 +53,7 @@ chmod +x init.zsh
 ./init.zsh
 ```
 
-### 3.3 Install PowerLevel10k:
+### 5.3 Install PowerLevel10k:
 
 Installation using homebrew:
 
@@ -73,7 +73,7 @@ It looks something like this:
 
 ![temrinal screeshot](https://github.com/dmartzol/dotfiles/blob/master/custom-monokai.png)
 
-### 3.3 Install PowerLevel10k:
+### 5.4 Install PowerLevel10k:
 
 You will need to change permissions to add autocompletion to git with:
 (see https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories)
@@ -82,9 +82,7 @@ sudo chmod -R 755 /usr/local/share/zsh
 sudo chown -R root:staff /usr/local/share/zsh
 ```
 
-## 4. Useful software
-
-
+## 6. Useful software
 
 * DBeaver:
 	1. First install Java with `brew cask install java`
