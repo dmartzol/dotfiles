@@ -8,15 +8,22 @@
 * System Preferences > General > Show scroll bars: always.
 * System Preferences > Trackpad > Point & Click > enable `Tap to click`.
 * System Preferences > Trackpad > More Gestures > disable `Swipe between pages`.
-* System Preferences > Keyboard > Text > disable correct spelling automatically.
+* System Preferences > Keyboard > Text > disable `correct spelling automatically`.
 * System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Zoom` for all apps with shortcut `option+cmd+=`.
 * System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Show Next Tab` for `Safari` with shortcut `option+cmd+->`.
 * System Preferences > Keyboard > Shortcuts > App Shortcuts > add `Show Previous Tab` for `Safari` with shortcut `option+cmd+<-`.
 * In a Finder window, press `cmd+shift+.` to show hidden files.
 
-
 ![keyboard shortcuts](https://github.com/dmartzol/dotfiles/blob/master/keyboard-shortcuts.png)
 
+## 1. Install All Software Updates for MacOS
+
+## 1. Install Sublime Text from Official Website
+
+	After downloading ST, install the command line tool `subl` creating a symlink:
+	```
+	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+	```
 
 ## 2. SSH Keys
 
@@ -77,12 +84,7 @@ sudo chown -R root:staff /usr/local/share/zsh
 
 ## 4. Useful software
 
-* Sublime Text.
 
-	After downloading ST, install the command line tool `subl` creating a symlink:
-	```
-	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-	```
 
 * DBeaver:
 	1. First install Java with `brew cask install java`
