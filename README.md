@@ -48,6 +48,15 @@ Then paste the public key `id_rsa.pub`(you can get it with `cat id_rsa.pub`) on 
 
 Go to [the official website](https://brew.sh) and follow the instructions.
 
+### 5.1 Install Iosevka for terminal
+
+Install Iosevka font with
+
+```sh
+brew tap homebrew/cask-fonts
+brew install --cask font-iosevka
+```
+
 ### 5.2 Install your dotfiles:
 
 ```
