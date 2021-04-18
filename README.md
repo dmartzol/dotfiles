@@ -18,7 +18,11 @@
 
 ## 2. Install All Software Updates for MacOS
 
-## 3. Install Sublime Text from Official Website
+## 3. Install Sublime Text
+
+### 3.1 Download and install Sublime Text from the official website
+
+### 3.2 Install `subl` tool for command line
 
 	After downloading ST, install the command line tool `subl` creating a symlink:
 	```
